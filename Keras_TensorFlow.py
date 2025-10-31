@@ -9,7 +9,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 # --- 1. Define Model Parameters ---
 N_PAST_STEPS = 24       # How many past hours to use as input
-N_HORIZONS = 6        # How many future hours to predict
+N_HORIZONS = 20        # How many future hours to predict
 N_FEATURES = 1        # We are using 1 feature (the energy value)
 QUANTILES = [0.05, 0.5, 0.95] # The 3 quantiles we want to predict
 N_QUANTILES = len(QUANTILES)
